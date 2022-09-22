@@ -21,10 +21,16 @@
 <p><a href="src/main/java/ru/atom/solid/ocp/violation/LoanApprovalHandler.java">Пример нарушения приницпа OCP</a></p>
 <p><a href="src/main/java/ru/atom/solid/ocp/solution/LoanApprovalHandler.java">Пример исправления нарушения</a></p>
 
+## Принцип подстановки Барбары Лисков (LSP - Liskov's Substitution Principle)
+<p>Объекты должны быть заменяемыми на экземпляры их подтипов без изменения правильности выполнения программы. 
+Наследующий класс должен дополнять, а не изменять базовый.</p>
+<p><a href="src/main/java/ru/atom/solid/lsp/violation/WinampMediaPlayer.java">Пример нарушения приницпа LSP</a></p>
+<p><a href="src/main/java/ru/atom/solid/lsp/solution/WinampMediaPlayer.java">Пример исправления нарушения</a></p>
+
 ## Дополнительно
 ### Устойчивость
 Зависимости должны быть направлены в сторону устойчивости.
-<p>Устойчивость расчитывается по формуле <i>I = fan_out / (fan_out + fan_in)</i>, где </p>
+<p>Устойчивость расчитывается по формуле <i>I = fan_out ÷ (fan_out + fan_in)</i>, где </p>
 <p><i>fan_out</i> - количество исходящих 
 зависимостей. Эта метрика определяет количество классов внутри данного компонента, зависящих от классов за его
 пределами.</p>
