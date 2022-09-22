@@ -15,6 +15,11 @@
 <p><a href="src/main/java/ru/atom/solid/srp/violation/Phone.java">Пример нарушения приницпа SRP</a></p>
 <p><a href="src/main/java/ru/atom/solid/srp/solution/Phone.java">Пример исправления нарушения</a></p>
 
+## Принцип открытости/закрытости (OCP - Open/Close Principle)
+<p>Программные сущности(классы, модули, функции и т.п.) должны быть открыты для расширения, но закрыты для изменения.
+</p>
+<p><a href="src/main/java/ru/atom/solid/ocp/violation/LoanApprovalHandler.java">Пример нарушения приницпа OCP</a></p>
+<p><a href="src/main/java/ru/atom/solid/ocp/solution/LoanApprovalHandler.java">Пример исправления нарушения</a></p>
 
 ## Дополнительно
 ### Устойчивость
