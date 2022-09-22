@@ -74,7 +74,7 @@
 ### Главная последовательность
 <p>Теперь мы можем определить зависимость между устойчивостью (I) и абстрактностью (A). В идеале классы должны
 находиться в зоне главной последовательности.</p>
-<img src="/src/main/resources/images/zones.png" style="height: 400px; width:400px;" title="Зоны исключения" alt=""/>
+<img src="/src/main/resources/images/zones.png" style="height: 624px; width:702px;" title="Зоны исключения" alt=""/>
 <p><b>Зона боли</b>: Такие компоненты нежелательны, потому что слишком жесткие. Их нельзя расширить, потому что они 
 неабстрактные, и очень трудно изменить из-за большой устойчивости.</p>
 <p><b>Зона бесполезности</b>: Такие компоненты также нежелательны, потому что они максимально абстрактны и не имеют 
@@ -90,8 +90,7 @@
 зависеть от того, чего им не требуется.
 
 ### Дополнительная инфа
-<img src="/src/main/resources/images/zones.png" style="height: 624px; width:702px;" title="Зоны исключения" alt=""/>
-<img src="/src/main/resources/images/1.png" style="height: 1098px; width:1374px;" title="Зоны исключения" alt=""/>
-<img src="/src/main/resources/images/2.png" style="height: 1090px; width:1372px;" title="Зоны исключения" alt=""/>
-<img src="/src/main/resources/images/3.png" style="height: 1104px; width:1386px;" title="Зоны исключения" alt=""/>
-<img src="/src/main/resources/images/4.png" style="height: 886px; width:1528px;" title="Зоны исключения" alt=""/>
+<img src="/src/main/resources/images/1.png" style="height: 549px; width:687px;" title="" alt=""/>
+<img src="/src/main/resources/images/2.png" style="height: 545px; width:686px;" title="" alt=""/>
+<img src="/src/main/resources/images/3.png" style="height: 552px; width:693px;" title="" alt=""/>
+<img src="/src/main/resources/images/4.png" style="height: 443px; width:764px;" title="" alt=""/>
