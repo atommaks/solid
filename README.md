@@ -12,8 +12,8 @@
 <p>Класс должен иметь только одну и только одну причину для изменений. Т.е. у него должна быть своя некая роль, которая
 изменяется только по единственной причине. У класса должна быть своя маленькая зона ответсвенности.</p>
 
-<p><a href="https://github.com/atommaks/solid/blob/master/src/main/java/ru/atom/solid/srp/violation/Phone.java">Пример нарушения приницпа SRP</a></p>
-<p><a href="https://github.com/atommaks/solid/blob/master/src/main/java/ru/atom/solid/srp/solution/Phone.java">Пример исправления нарушения</a></p>
+<p><a href="src/main/java/ru/atom/solid/srp/violation/Phone.java">Пример нарушения приницпа SRP</a></p>
+<p><a href="src/main/java/ru/atom/solid/srp/solution/Phone.java">Пример исправления нарушения</a></p>
 
 
 ### Дополнительно
@@ -43,4 +43,8 @@
 #### Главная последовательность
 <p>Теперь мы можем определить зависимость между устойчивостью (I) и абстрактностью (A). В идеале классы должны
 находиться в зоне главной последовательности.</p>
-<img src="/src/main/resources/images/zones.png" alt="" style="height: 100px; width:100px;" width="702" height="624" title="Зоны исключения"/>
+<img src="/src/main/resources/images/zones.png" style="height: 702px; width:624px;" title="Зоны исключения" alt=""/>
+<p><b>Зона боли</b>: Такие компоненты нежелательны, потому что слишком жесткие. Их нельзя расширить, потому что они 
+неабстрактные, и очень трудно изменить из-за большой устойчивости.</p>
+<p><b>Зона бесполезности</b>: Такие компоненты также нежелательны, потому что они максимально абстрактны и не имеют 
+входящих зависимостей. Они бесполезны.</p>
