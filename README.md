@@ -88,3 +88,10 @@
 и по разным причинам.
 - **CRP**: Common Reuse Principle — принцип совместного повторного использования. Не вынуждайте пользователей компонента
 зависеть от того, чего им не требуется.
+
+### Дополнительная инфа
+<img src="/src/main/resources/images/zones.png" style="height: 624px; width:702px;" title="Зоны исключения" alt=""/>
+<img src="/src/main/resources/images/1.png" style="height: 1098px; width:1374px;" title="Зоны исключения" alt=""/>
+<img src="/src/main/resources/images/2.png" style="height: 1090px; width:1372px;" title="Зоны исключения" alt=""/>
+<img src="/src/main/resources/images/3.png" style="height: 1104px; width:1386px;" title="Зоны исключения" alt=""/>
+<img src="/src/main/resources/images/4.png" style="height: 886px; width:1528px;" title="Зоны исключения" alt=""/>
