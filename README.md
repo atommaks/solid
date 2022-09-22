@@ -27,6 +27,12 @@
 <p><a href="src/main/java/ru/atom/solid/lsp/violation/WinampMediaPlayer.java">Пример нарушения приницпа LSP</a></p>
 <p><a href="src/main/java/ru/atom/solid/lsp/solution/WinampMediaPlayer.java">Пример исправления нарушения</a></p>
 
+## Принцип разделения интерфейсов (ISP - Interface Segregation Principle)
+<p>Много специальных интерфейсов лучше, чем один универсальный, в котором есть часть востребованных и часть редко 
+вызываемых методов.</p>
+<p><a href="src/main/java/ru/atom/solid/isp/violation/OrderService.java">Пример нарушения приницпа ISP</a></p>
+<p><a href="src/main/java/ru/atom/solid/isp/solution/OrderProcesingService.java">Пример исправления нарушения</a></p>
+
 ## Дополнительно
 ### Устойчивость
 Зависимости должны быть направлены в сторону устойчивости.
